@@ -1,0 +1,19 @@
+note over browser:
+js code already loaded from spa.js
+gets the user input content from
+form and adds new note to ul 
+before posting new note to server
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over browser:
+browser posts user form input 
+to server address /new_note_spa
+end note
+
+server-->browser: HTTP status code 201
+
+note over server:
+server does not ask for redirect
+end note
